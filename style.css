@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+   background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'arial';
+    padding-top: 80px;
+    overflow: scroll;
+    
+}
+
+.container{
+    background: rgba(255,255,255, .3);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0,0,0,.3);
+    margin: 5px;
+    width: 50%;
+}
+
+.heading{
+    font-size: 30px;
+    color: rgb(108, 24, 24);
+}
+
+.input{
+    padding: 10px 20px;
+    font-size: 18px;
+    background: rgba(255,255,255, .4);
+    border-color: rgba(255,255,255, .5);
+    margin: 10px;
+}
+
+.btn{
+    background-color: rgb(182, 159, 29);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 20px;
+    box-shadow: 0 0 4px rgba(0,0,0,.3);
+    cursor: pointer;
+}
+
+.btn:hover{
+    box-shadow: 0 0 8px rgba(0,0,0,.3);
+    transition: all 300ms ease;
+}
+
+.info-text{
+    font-size: 20px;
+    font-weight: 500;
+}
+footer{
+    background-color: transparent;
+    padding: 20px;
+    text-align: center;
+    position: relative; 
+    bottom: 0; 
+    width: 100%; 
+    color: rgb(108, 24, 24);
+    margin-top: 0;
+}
+h1{
+    position: absolute;
+    top: 0;
+    border: 2px transparent;
+    text-align: center;
+    background-color: transparent;
+    border-radius: 2px;
+    padding: 20px;
+    width: 50%;
+    justify-content: center;
+    width: 100%;
+        
+  }
+  h2{
+    background: rgba(255,255,255, .3);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0,0,0,.3);
+    margin: 5px;
+    width: 50%;
+    
+}

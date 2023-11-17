@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="heading">Body Mass Index (BMI) Calculator</h1>
+    <h2>
+        <p>BMI, or Body Mass Index, is a widely used measure to assess an individual's body weight in relation to their height. It is a simple and quick method to categorize people into different weight status groups.</p>
+        <p>
+            Here's a breakdown of the categories based on BMI:
+        </p>
+        <ol>
+            <li style="color:rgb(17, 203, 203)">Underweight:BMI less than 18.5</li> 
+            <p>Individuals in this category may be at risk for health issues due to insufficient body weight. This could be indicative of malnutrition or other underlying health problems.</p>
+            <li style="color:rgb(17, 203, 203)">Normal weight:BMI between 18.5 and 24.9</li>
+            <p>Individuals in this range are generally considered to have a healthy body weight in relation to their height. However, it's important to note that BMI does not differentiate between muscle and fat, so a person with high muscle mass may have a higher BMI without being overweight.</p>
+            <li style="color:rgb(17, 203, 203)">Obesity:BMI of 30 or greater</li>
+            <p>
+                Obesity is further divided into three classes:
+                <ul>
+                    <li>Class 1 (BMI 30-34.9)</li>
+                    <li>Class 2 (BMI 35-39.9)</li>
+                    <li>Class 3 (BMI 40 or greater)</li>
+                </ul>
+                Obesity is associated with a higher risk of various health problems, including heart disease, hypertension, type 2 diabetes, and certain types of cancer.
+            </p>
+        </ol>
+        <p>It's important to note that while BMI is a useful screening tool, it has limitations. It does not account for variations in body composition, such as muscle mass versus fat mass, and may not be accurate for certain populations, such as athletes with high muscle mass. Therefore, it's always a good idea to consider other health indicators and consult with healthcare professionals for a more comprehensive assessment of an individual's health.</p>
+    </h2>
+    <div class="container">
+        
+        Your Height (cm):
+        <input type="number" class="input" id="height" value="180" placeholder="Enter your height in cm">
+        Your Weight (kg):
+        <input type="number" class="input" id="weight" value="80" placeholder="Enter your weight in kg">
+        <button class="btn" id="btn">Compute BMI</button>
+        <input disabled type="text" class="input" id="bmi-result">
+        <h4 class="info-text">Weight Condition: <span id="weight-condition"></span></h4>
+    </div>
+    <script src="index.js"></script>
+    <footer>
+        <div>@copyright-2023 by <b>TCHAMASSE Warapisse</b></div>
+    </footer>
+</body>
+</html>
